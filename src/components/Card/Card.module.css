@@ -1,0 +1,18 @@
+.divCard{
+    background-color: #010518ef;
+    border: 1px solid #ccc;
+    width: fit-content;
+    border-radius: 5px;
+    margin: 5px 5px;
+    padding: 5px;
+    color: rgb(204, 218, 231);
+    text-shadow: 0px 2px 2px rgb(49, 122, 110);
+    backdrop-filter: blur (.4rem);
+    -webkit-backdrop-filter: blur(.4rem);
+}
+
+.divCard:hover{
+    background-color: #002c0dad;
+    color: rgb(255, 225, 94);
+    text-shadow: 3px 2px 1px rgb(0, 44, 0);
+}

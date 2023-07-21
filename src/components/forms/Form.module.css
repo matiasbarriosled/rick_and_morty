@@ -1,0 +1,32 @@
+.divDisplay{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    height: 80vh;
+    padding-top: 30px;
+    border-radius: 5%;
+}
+
+form{
+    width: fit-content;
+    background-color: #010518ef;
+    color: #ebf4f1;
+    padding:2rem;
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    font-size: 1.2rem;
+}
+
+.errors{
+    color:crimson;
+    font-size: .9rem;
+    text-shadow: 1px 1px 1px rgba(53, 0, 0, 0.801);
+    padding: 0;
+    list-style: outside;
+    list-style-position: initial;
+}
